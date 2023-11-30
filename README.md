@@ -28,3 +28,13 @@ Cada item da lista é apresentado dentro de um CardView por questão de estilo, 
 
 Dessa forma os itens terão aparência e estilo padronizados, graças ao CardView encapsulando cada linha da lista no RecyclerView.
 Os demais elementos como ViewHolder e Adapter permanecem os mesmos. Esta é apenas uma customização visual e de estilo.
+
+Event listener
+event listeners são usados para lidar com interações do usuário, como toques na tela, cliques em botões, alterações de estado, entre outros eventos.
+
+ A classe DescriptionActivity exibe detalhes de um elemento de lista (ListElement) passado por um intent. O código está configurando duas TextViews para exibir o nome, status do elemento da lista,e ajustar suas cores.
+
+A DescriptionActivity é uma parte do aplicativo responsável por exibir os detalhes de um elemento da lista selecionado. Ela recebe um objeto `ListElement` por meio de um Intent e apresenta informações específicas desse elemento, como o nome e o status.
+
+Ao receber um ListElement, a atividade configura as TextViews para mostrar o nome e o status do elemento em um layout dedicado.
+
